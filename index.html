@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>моя визитка</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container header__container">
+        <img class="header__logo" src="img/Логотип(header__logo).png" alt="" />
+        <nav>
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="">главная</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="">о нас</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="">скриншоты</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="">отзывы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero-block">
+        <div class="container container__hero-block">
+          <img src="img/hero-block__img-transformed.png" alt="" />
+          <div class="hero-block_container">
+            <h1 class="hero-block__title">меня зовут Варвара</h1>
+            <button class="hero-block__btn">
+              <a href="" class="hero-block__link">написать мне</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container container__about">
+          <h2 class="about__title">Обо мне:</h2>
+          <div class="about__content">
+            <p class="about__text">
+              Я занимаюсь русско-народными танцами, это отдельный вид
+              хореографии и балета . Там мы танцуем танцы разных народов
+              ,соответственно в специальной обуви-туфлях .
+            </p>
+            <img src="img/about__img.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="video">
+        <div class="container container__video">
+          <h2 class="video__title">Видео</h2>
+          <iframe
+            class="video__item"
+            src="https://www.youtube.com/embed/9IR6pbv6oHk?si=xqjZxoWBgcECcAuu"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="gallery">
+<h2 class="gallery__title">Галерея</h2>
+<ul class="gallery__list">
+  <li class="gallery__item">
+    <a  href="img/gallery__img.png" class="lightzoom">
+      <img src="img/gallery__img.png" class="gallery__img">
+    </a>
+  </li>
+  <li class="gallery__item">
+    <a  href="img/gallery__img (1).png" class="lightzoom">
+      <img src="img/gallery__img (1).png" class="gallery__img">
+    </a>
+  </li>
+  <li class="gallery__item">
+    <a  href="img/gallery__img (2).png" class="lightzoom">
+      <img src="img/gallery__img (2).png" class="gallery__img">
+    </a>
+  </li>
+  <li class="gallery__item">
+    <a  href="img/gallery__img (3).png" class="lightzoom">
+      <img src="img/gallery__img (3).png" class="gallery__img">
+    </a>
+  </li>
+</ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container container__footer">
+        <div class="footer__content">
+<h3 class="footer__title">Варвара Травина</h3>
+<p class="footer__text">&copy; 2024.все права защищены</p>
+</div>
+<ul class="footer__list">
+  <li class="footer__item">
+    <a href="#" class="footer__link">
+      <img src="img/Исключить.png" alt="" class="footer__img">
+    </a>
+  </li>
+  <li class="footer__item">
+    <a href="#" class="footer__link">
+      <img src="img/Исключить (1).png" alt="" class="footer__img">
+    </a>
+  </li>
+</ul>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+    <script type="text/javascript">
+      jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+      </script>
+  </body>
+</html>
